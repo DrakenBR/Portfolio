@@ -1,0 +1,207 @@
+* {
+    margin:0;
+    padding: 0;
+}
+header {
+    width: 100%;
+}
+
+nav {
+    margin: 20px auto;
+    width: 90%;
+}
+
+nav ul {
+    list-style:none;
+}
+
+nav > ul {
+    display:table;
+    width:100%;
+    background:#a79378;
+    position:relative;
+}
+
+nav > ul li {
+    display: table-cell;
+    overflow:hidden;
+}
+
+/*Submenu*/
+nav > ul > li > ul {
+    display: block;
+    position: absolute;
+    background: #a79378;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 0%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul > li:hover > ul {
+    display: block;
+    height: 100%;
+}
+
+nav > ul li a {
+    color: #000000;   
+    display: block;
+    line-height: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul > li> ul> li a:hover {
+    background: #524e8f;
+    
+}
+
+nav > ul > li > a span {
+    background: #174459;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: -55px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul > li > a span .icon {
+display: block;
+line-height: 60px;
+}
+
+    nav > ul > li> a:hover > span {
+        top:0;
+    }
+
+    /*colores*/
+    nav ul li a .primero {
+        background: #524e8f;
+    }
+
+    nav ul li a .segundo {
+        background: #524e8f;
+    }
+
+    nav ul li a .tercero {
+        background: #524e8f;
+    }
+
+    nav ul li a .cuarto {
+        background: #524e8f;
+    }
+
+    nav ul li a .quinto {
+        background: #524e8f;
+    }
+
+    h1 {
+        color: #000;
+        text-align: center;
+    }
+
+adress {
+    color: #000;
+    font-style: italic;
+    font-family: Brush Script MT;
+}
+/* definiciones de imagenes */
+img {
+    height: 400px;
+    width: auto;
+    display: inline-block;
+    border: 4px solid #a79378;
+}
+
+.recetas p {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Brush Script MT;
+    color: #000;
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    background-image: url(Imagenes/fondococina.jpg);
+    color: #080808;
+    font-size: 20px;
+    padding: 4%;
+}
+
+h3 {
+    font-family: Brush Script MT;
+    color: #000;
+    font-size: 25px;
+}
+h1 {
+    font-family: Brush Script MT;
+    color: black;
+    font-size: 70px;
+}
+/* texto a dentro del cuadro y configuración del cuadro */
+.container {
+    opacity: 2;
+    background-color: rgba(175, 150, 150, 0.648);
+    text-align: left;
+    list-style-position: inside;
+    padding-right: 4%;
+}
+
+.container div {
+    padding-top: 4%;
+    margin-left: 4%;
+}
+/* lista desordenada a dentro del cuadro */
+.container ul {
+    margin-left: 5%;
+    padding-bottom: 4%;
+}
+/* lista ordenada a dentro del cuadro */
+.container ol {
+    margin-left: 5%;
+}
+/* h3 a dentro del cuadro */
+.container h3 {
+    margin-left: 4%;
+}
+ /* <p> a dentro del cuadro */
+.container p {
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-bottom: 4%;
+}
+/* imagen a dentro del cuadro */
+.container img {
+    display: table-cell;
+    float: right;
+    margin-right: 4%;
+}
+/* deficiones de imagenes dentro del div imagenes */
+.imagenes img{
+    display: inline-block;
+}

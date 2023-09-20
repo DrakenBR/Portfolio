@@ -1,0 +1,153 @@
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #a79378;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+input[type=submit] {
+    background-color: #1d1d1c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    background-color: #a79378;
+    padding: 20px;
+}
+
+body {
+    background-image: url(imagenes/fondococina.jpg);
+    padding: 4%;
+}
+
+h3 {
+    font-family: Brush Script MT;
+    font-size: 30px;
+}
+
+* {
+    margin:0;
+    padding: 0;
+}
+header {
+    width: 100%;
+}
+
+nav {
+    margin: 20px auto;
+    width: 90%;
+}
+
+nav ul {
+    list-style:none;
+}
+
+nav > ul {
+    display:table;
+    overflow:hidden;
+    width:100%;
+    background:#a79378;
+    position:relative;
+}
+
+nav > ul li {
+    display: table-cell;
+}
+
+/*Submenu*/
+nav > ul > li:hover > ul {
+    display: block;
+    height: 100%;
+}
+
+nav > ul > li > ul {
+    display: block;
+    position: absolute;
+    background: #a79378;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 0%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul li a {
+    color: #000000;   
+    display: block;
+    line-height: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul > li> ul> li a:hover {
+    background: #524e8f;
+}
+
+nav > ul > li > a span {
+    background: #174459;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: -55px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul > li > a span .icon {
+display: block;
+line-height: 60px;
+}
+
+    nav > ul > li> a:hover > span {
+        top:0;
+    }
+
+    /*colores*/
+    nav ul li a .primero {
+        background: #524e8f;
+    }
+
+    nav ul li a .segundo {
+        background: #524e8f;
+    }
+
+    nav ul li a .tercero {
+        background: #524e8f;
+    }
+
+    nav ul li a .cuarto {
+        background: #524e8f;
+    }
+
+    nav ul li a .quinto {
+        background: #524e8f;
+    }
